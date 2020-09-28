@@ -1,0 +1,62 @@
+.contenue{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: 
+    "photo name info"
+    "competence experiences skills "
+    "footer footer footer";
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    border: 5px solid #b6b2c0;
+    font-style: normal ;
+    background-color: rgb(250, 245, 245);
+   }
+
+.info{
+    grid-column:1/2 ;
+    grid-row: 1/2;
+    border-style: solid;
+    color: rgb(31, 30, 48);
+
+}
+
+.photo{
+    grid-column: 3 /4; 
+    grid-row: 1/2 ;
+    border-style: solid;
+
+}
+
+.FORMA{
+    grid-column: 3 /4;
+    grid-row: 3/4;
+    border-style: solid ;
+    color: darkred ;
+
+
+}
+
+.EXP{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    border-style: solid;
+    color: burlywood;
+}
+
+.LANG{
+   grid-column: 1/2;
+   grid-row: 5/6;
+   border-style: solid;
+   color: coral;
+
+}
+
+.LOIS{
+    grid-column:3 /4;
+    grid-row: 5/6;
+    border-style: solid;
+    color: darkgoldenrod;
+
+}
